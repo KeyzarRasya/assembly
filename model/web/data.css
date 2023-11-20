@@ -1,0 +1,39 @@
+p, h1{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 5px;
+}
+
+a{
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+body{
+    background-color: #1D1D1D;
+}
+
+#data-container{
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+}
+
+.data-card{
+    padding: 10px;
+    border: 1px solid orange;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.data-image{
+    border: 1px solid green;
+    width: 300px;
+}
